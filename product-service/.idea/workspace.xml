@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b93bf5e-4000-4cdf-b4d7-2c4f65f33c44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/productservice/ProductServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/productservice/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/productservice/dto/ProductRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/productservice/dto/ProductResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/productservice/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/productservice/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andres/productservice/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/andres/productservice/ProductServiceApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/inventory-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/inventory-service/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/inventory-service/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/inventory-service/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/inventory-service/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/order-service/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/order-service/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/order-service/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/order-service/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/product-service/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/product-service/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/product-service/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices-parent/MicroServices New/product-service/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +71,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/pc/Desktop/Proyectos/OnlineShopSpring/ShoppingAppSpring/microservices-parent",
+    "last_opened_file_path": "C:/Users/pc/Desktop/Proyectos/OnlineShopSpring/ShoppingAppSpring/microservices-parent/product-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -138,6 +144,7 @@
       <workItem from="1694361480340" duration="3099000" />
       <workItem from="1694364865601" duration="265000" />
       <workItem from="1694365142314" duration="14000" />
+      <workItem from="1694369734045" duration="22000" />
     </task>
     <servers />
   </component>
