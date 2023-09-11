@@ -8,6 +8,10 @@
   <name>Archetype - microservices-new</name>
   <url>http://maven.apache.org</url>
 
+  <properties>
+    <spring-cloud.version>2022.0.4</spring-cloud.version>
+  </properties>
+
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -19,6 +23,7 @@
     <module>product-service</module>
     <module>order-service</module>
     <module>inventory-service</module>
+    <module>discovery-server</module>
   </modules>
 
   <dependencyManagement>
@@ -29,6 +34,13 @@
         <type>pom</type>
         <scope>import</scope>
         <version>1.18.3</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
