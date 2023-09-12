@@ -3,6 +3,8 @@ package com.andres.inventoryservice.service;
 import com.andres.inventoryservice.dto.InventoryResponse;
 import com.andres.inventoryservice.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
+//import lombok.SneakyThrows;
+//import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -10,12 +12,18 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
+//@Slf4j
 public class InventoryService {
 
     private final InventoryRepository inventoryRepository;
 
     @Transactional(readOnly = true)
+    //@SneakyThrows
     public List<InventoryResponse> isInStock(List<String> skuCode){
+        // Slow connection test
+        //log.info("Wait Started");
+        //Thread.sleep(10000);
+        //log.info("Wait Finished");
         return inventoryRepository.findBySkuCodeIn(skuCode).stream()
                 .map(inventory ->
                     InventoryResponse.builder()
